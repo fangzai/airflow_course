@@ -1,3 +1,3 @@
-docker build . -f Dockerfile --tag wanghaitao8118:airflow
-docker tag wanghaitao8118:airflow wanghaitao8118/airflow:pyspark
+docker build . -f Dockerfile --tag airflow:pyspark
+docker tag airflow:pyspark wanghaitao8118/airflow:pyspark
 docker push wanghaitao8118/airflow:pyspark
