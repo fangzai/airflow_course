@@ -1,4 +1,4 @@
-FROM apache/airflow:2.2.1
+FROM apache/airflow:2.8.3
 
 COPY new_requirements.txt .
 RUN /usr/local/bin/python -m pip install --upgrade pip
