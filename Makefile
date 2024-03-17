@@ -3,11 +3,11 @@ PACKAGES := "dags"
 
 .PHONY: build
 build:
-	docker build . -f Dockerfile --tag airflow:harrytan
+	docker build . -f Dockerfile --tag wanghaitao8118:airflow
 
 .PHONY: version
 version:
-	docker run --rm --name testairflow airflow:harrytan version
+	docker run --rm --name testairflow wanghaitao8118:airflow version
 
 .PHONY: up
 up:
