@@ -1,6 +1,6 @@
 alembic==1.6.5
 anyio==3.2.1
-apache-airflow==2.1.2
+apache-airflow==2.8.3
 apache-airflow-providers-amazon==2.1.0
 apache-airflow-providers-ftp==2.0.0
 apache-airflow-providers-google==5.0.0
@@ -42,7 +42,7 @@ Flask-Babel==1.0.0
 Flask-Caching==1.10.1
 Flask-JWT-Extended==3.25.1
 Flask-Login==0.4.1
-Flask-OpenID==1.2.5
+#Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
 google-ads==14.0.0
